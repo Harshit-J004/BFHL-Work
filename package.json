@@ -1,0 +1,30 @@
+{
+  "name": "bfhl-api",
+  "version": "1.0.0",
+  "description": "Full Stack REST API for VIT assignment",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "keywords": [
+    "rest-api",
+    "nodejs",
+    "express",
+    "vit",
+    "full-stack"
+  ],
+  "author": "Harshit Joshi",
+  "license": "MIT"
+}
