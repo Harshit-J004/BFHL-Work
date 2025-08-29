@@ -8,7 +8,7 @@ app.use(cors());
 const USER_DETAILS = {
     full_name: "harshit_joshi",
     birth_date: "10042004",
-    email: "heerj4477@gmail.com",
+    email: "harshit.joshi2022@vitstudent.ac.in",
     roll_number: "22BCE3398"
 };
 
@@ -54,7 +54,6 @@ app.post('/bfhl', (req, res) => {
             });
         }
         
-        // Initialize arrays
         const oddNumbers = [];
         const evenNumbers = [];
         const alphabets = [];
